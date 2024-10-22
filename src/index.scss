@@ -1,0 +1,62 @@
+@use './styles/variable.scss' as variable;
+
+body {
+  margin: 0;
+  height: 100vh;
+  font-family: 'Heebo', sans-serif;
+}
+
+#root {
+  height: 100%;
+  max-width: 1320px;
+  padding: 0;
+}
+
+body {
+  font-weight: 400;
+  line-height: 1.5;
+  font-size: 1rem;
+  margin: 0;
+  background-color: #effdf5 !important;
+  padding: 0;
+}
+main {
+  background-color: white;
+}
+.app {
+  height: 100%;
+  display: flex;
+  position: relative;
+  z-index: 1;
+
+  .block {
+    display: flex;
+    margin-bottom: 24px;
+    font-size: 14px;
+    color: #545454;
+
+    > span {
+      margin-left: 10px;
+    }
+  }
+}
+.center-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+// .landing-page {
+//   div[dir='ltr'][aria-roledescription='carousel'] {
+//     height: 100%;
+//   }
+//   .react-slideshow-container {
+//     height: 100%;
+//   }
+
+//   .react-slideshow-wrapper.slide.slideshow {
+//     height: 100%;
+//   }
+//   .react-slideshow-wrapper .images-wrap.horizontal {
+//     height: 100%;
+//   }
+// }
